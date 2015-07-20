@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 22
+
+        // DO NOT CHANGE HERE. SEE TOP OF FILE.
+        versionName 'dev'
+        versionCode 1
+    }
+
+    dependencies {
+        compile project(':library')
+    }
+}
+
+
